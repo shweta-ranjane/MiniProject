@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gallery Page</title>
+<style>
+*{
+box-sizing:border-box;
+}
+body{
+margin:0;
+background:grey;
+}
+nav{
+background:#594848;
+width:100%;
+overflow:auto;
+}
+ul{
+margin:0;
+padding:0;
+list-style:none;
+}
+li{
+float:left;
+}
+ul li.active a{
+	background-color:#fff;
+	color:#000;
+	}
+nav a{
+width:120px;
+display:block;
+text-decoration:none;
+text-align:center;
+background:#594848;
+font-size:17px;
+color:white;
+padding:20px 10px;
+font-family:Arial;
+}
+nav a:hover{
+background:skyblue;
+color:black;
+}
+.container{
+max-width:1200px;
+margin:auto;
+background:#f2f2f2;
+overflow:auto;
+}
+.gallery{
+margin:5px;
+border:1px solid #ccc;
+float:left;
+width:390px;
+}
+.gallery img{
+width:100%;
+height:auto;
+}
+.desc{
+padding:15px;
+text-align:center;
+}
+footer{
+padding:10px;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+background:#594848;
+color:white;
+font-family:Arial;
+letter-spacing:1px;
+}
+</style>
+</head>
+<body>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="Services.html">Services</a></li>
+<li class="active"><a href="Gallery.html">Gallery</a></li>
+<li><a href="About.html">About</a></li>
+<li><a href="Contact.html">Contact</a></li>
+</ul>
+</nav>
+<div class="container">
+<div class="gallery">
+<img src="livi.jpg">
+<div class="desc">Living Room</div>
+</div>
+<div class="gallery">
+<img src="kitchen.jpg">
+<div class="desc">Kitchen</div>
+</div>
+<div class="gallery">
+<img src="din.jpg">
+<div class="desc">Dining Room</div>
+</div>
+<div class="gallery">
+<img src="furniture.jpg">
+<div class="desc">Bedroom Design</div>
+</div>
+<div class="gallery">
+<img src="backyard.jpg">
+<div class="desc">Backyard Design</div>
+</div>
+<div class="gallery">
+<img src="washroom.jpg">
+<div class="desc">Washroom </div>
+</div>
+</div>
+<footer>
+<b>SIGN IN</b><br>
+@Copyright Butterfly Interior Design. All Rights Reserved.<br>
+Powered by Create Ecommerce
+</footer>
+</body>
+</html> 

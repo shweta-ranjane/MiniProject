@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About Us Page</title>
+<style>
+body{
+margin:50px;
+background-image:url(../a.jpg);
+background-position:center;
+background-size:cover;
+}
+#blink{
+font-family:Italic;
+font-size:40px;
+font-weight:bold;
+color:red;
+transition:0.5s;
+}
+.links{
+	width:100%;
+	margin:auto;
+	padding:-100px 0;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+.logo{
+margin-left:20px;
+margin-top:20px;
+width:160px;
+cursor:pointer;
+}
+.links ul li{
+	list-style:none;
+	display:inline-block;
+	margin:0 50px;
+	position:relative;
+}
+.links ul li a{
+	text-decoration:none;
+	color:black;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.links ul li::after{
+	content:' ';
+	height:3px;
+	width:0;
+	background:red;
+	position:absolute;
+	left:0;
+	bottom:-5px;
+	transition:0.5s;
+}
+.links ul li:hover::after{
+	width:100%;
+}
+</style>
+</head>
+<body>
+<div class="links">
+<img src="D:\New folder\butterfly-interior-design logo.png"class="logo">
+<ul>
+<li><a href="Home.html">Home</a></li>
+<li><a href="Services.html">Services</a></li>
+<li><a href="Gallery.html">Gallery</a></li>
+<li><a href="About.html">About</a></li>
+<li><a href="Contact.html">Contact</a></li>
+
+</ul><hr> </hr>
+</div>
+<hr></hr>
+<h1 id="blink"align="center">
+ Welcome  To Butterfly  Interior  Design</h1><br><hr></hr>
+ <h2>ABOUT US :</h2>
+ <p><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Interior design is the art and science of
+ enhancing the interior of a building to achieve a healthier and
+ more aesthetically pleasing environment for the people using the space.<br> 
+ An interior designer is someone who plans, researches, coordinates, and manages such enhancement projects.</b></p>
+<h1> BUTTERFLY &nbsp;  INTERIOR &nbsp;  DESIGN :</h1>
+<h4><p>In the course of recent years, the Butterfly Interior Design group has scoured 
+the globe for innumerable assets that empower us to give an assortment of extravagance interior design administrations
+ to our customers in ventures with different degrees and spending plans.</p>
+<p>The extent of our firm, the size of our global interior design extends, and long-standing associations with sellers in dealing with the determination,
+obtaining, and facilitating the establishment of Residential, Contract, and Hospitality interiors are unmatched.</p></h3>
+<h3>These administrations include:</h4>
+<ul><h5>
+<li>Design of interiors and regular spaces for multi-family, and skyscraper advancements</li>
+<li>Design of extravagance interiors enveloping private homes, yachts and planes</li>
+<li>Business interiors including lodging and eatery design</li>
+<li>Show marketing</li>
+<li>Space arranging, room formats, and innovative redlining</li>
+<li>Undertaking the board</li>
+<li>Material particulars</li></h5>
+</ul>
+<script type="text/javascript">
+var blink=document.getElementById('blink');
+setInterval(function(){
+blink.style.opacity=(blink.style.opacity==0?1:0);
+},500);
+</script>
+</body>
+</html>

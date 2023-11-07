@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Our Services</title>
+<style>
+body{
+margin:20;
+padding:0;
+background-image:url("../1.jpg");
+background-position:center;
+background-size:cover;
+}
+nav{
+width:100%;
+background:black;
+overflow:auto;
+}
+ul{
+padding:0;
+margin:0 0 0 150px;
+list-style:none;
+}
+li{
+float:left;
+}
+.logo img{
+width:50px;
+position:absolute;
+margin-top:5;
+margin-left:30px;
+}
+nav a{
+width:100px;
+display:block;
+padding:20px 15px;
+text-decoration:none;
+font-family:Arial;
+color:#f2f2f2;
+text-align:center;
+}
+nav a:hover{
+background:purple;
+transition:0.5s;
+text-transform:uppercase;
+}
+ul li.active a{
+	background-color:skyblue;
+	color:#000;
+	}
+h1{
+font-size:50px;
+color:black;
+text-align:center;
+margin:50px auto 30px;
+}
+h3{
+font-size:30;
+display:flex;
+margin-left:150;
+margin-top:20;
+}
+h2{
+margin-left:100:
+}
+footer{
+padding:5px;
+font-size:15px;
+font-weight:bold;
+text-align:center;
+background:black;
+color:white;
+font-family:Arial;
+letter-spacing:1px;
+}
+
+</style>
+</head>
+<body>
+<div class="logo">
+<img src="D:\MiniProject\butterfly-interior-design logo.png"class="logo">
+</div>
+<nav>
+<ul>
+<li><a href="Home.html">Home</a></li>
+<li class="active"><a href="Services.html">Services</a></li>
+<li><a href="Gallery.html">Gallery</a></li>
+<li><a href="About.html">About</a></li>
+<li><a href="Contact.html">Contact</a></li>
+</ul>
+</nav>
+<h1>Our Services...</h1>
+<hr></hr>
+<h2>JOBS:</h2>
+<h3><u>Painting</u></h3>
+<h3><u>POP</u></h3>
+<h3><u>Furniture</u></h3>
+<h3><u>Waterproofing</u></h3>
+<h3><u>Electritian</u></h3>
+<h3><u>Wallpaper and Carpet</u></h3>
+<footer>
+<p>@Butterfly Interior Design.All Rights Reserved.<br>For Appointment 
+Contact Us:1 234 567 890</p>
+</footer>
+</body>
+</html>
